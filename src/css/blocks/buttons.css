@@ -63,6 +63,17 @@ a:focus {
 /* Button Primary */
 
 /*****************************************************************   */
+
+[data-variant="header_button"] {
+    color: var(--header-button-blue);
+    border-color: var(--header-button-border-color);
+}
+
+[data-variant="header_button"]:hover {
+    background-color: var(--button-header-hover);
+    color: var(--text-button-header);
+}
+
 [data-variant="primary"] {
     background-color: var(--button-button-primary);
     border: 0.2rem solid var(--button-button-primary);

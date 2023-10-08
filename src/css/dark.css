@@ -9,6 +9,7 @@
     /*  blue color */
     --cds-blue-400: #0f62fe;
     --cds-blue-500: #0353e9;
+    --header-button-blue: #ffffff;
 
     /* grey color */
     --cds-grey-400: #525252;
@@ -17,6 +18,9 @@
     /* Background */
     --background-background: #161616;
     --background-background-hover: #353535;
+
+    /* border-color */
+    --header-button-border-color: transparent;
 
     /* Text */
     --text-text-primary: #ffffff;
@@ -38,6 +42,7 @@
     --button-button-danger-primary: #da1e28;
     --button-button-danger-hover: #ba1b23;
     --button-button-disabled: #525252;
+    --button-header-hover: #0f62fe;
 
     /* Focus */
     --focus-focus: #ffffff;

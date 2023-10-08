@@ -9,6 +9,7 @@
     /*  blue color */
     --cds-blue-400: #0f62fe;
     --cds-blue-500: #0353e9;
+    --header-button-blue: #0f62fe;
 
     /* grey color */
     --cds-grey-400: #525252;
@@ -18,12 +19,16 @@
     --background-background: #ffffff;
     --background-background-hover: #e5e5e5;
 
+    /* border-color */
+    --header-button-border-color: #0f62fe;
+
     /* Text */
     --text-text-primary: #161616;
     --text-text-tertiary: #ffffff;
     --text-text-on-color: #ffffff; /* Text on interactive colors; Text on button colors */
     --text-text-on-color-disabled: #8d8d8d; /* Disabled color for --text-text-on-color */
     --text-text-disabled: #c6c6c6;
+    --text-button-header: #ffffff;
 
     /* Link */
     --link-link-primary: #0f62fe;
@@ -38,6 +43,7 @@
     --button-button-danger-primary: #da1e28;
     --button-button-danger-hover: #ba1b23;
     --button-button-disabled: #c6c6c6;
+    --button-header-hover: #0f62fe;
 
     /* Focus */
     --focus-focus: #0f62fe;
