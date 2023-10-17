@@ -29,6 +29,9 @@
     --text-text-on-color-disabled: #8d8d8d; /* Disabled color for --text-text-on-color */
     --text-text-disabled: #c6c6c6;
     --text-button-header: #ffffff;
+    --text-star-rating: 700;
+    --text-title-card: #525252;
+    --number-star-rating: #525252;
 
     /* Link */
     --link-link-primary: #0f62fe;
@@ -48,6 +51,12 @@
     /* Focus */
     --focus-focus: #0f62fe;
     --focus-box-shadow: 0px 0px 0px 0.1rem #ffffff inset;
+
+    /* cards background */
+    --cards-bgc: #f4f4f4;
+
+    /* star background */
+    --star-bgc: #ff5722;
 }
 
 /* logo */
