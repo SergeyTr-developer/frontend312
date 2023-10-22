@@ -1,0 +1,37 @@
+.img-thumbnail {
+    --bs-border-width: none;
+}
+
+.nav-link {
+    --bs-nav-link-color: #000000;
+    --bs-nav-link-font-size: 1.06rem;
+}
+
+.btn-success {
+    --bs-btn-bg: #75bf7a;
+    --bs-btn-border-color: none;
+    --bs-btn-font-size: 1.38rem;
+    --bs-btn-padding-x: 1.69rem;
+}
+
+.navbar-toggler {
+    --bs-border-width: none;
+    --bs-navbar-toggler-focus-width: none;
+}
+
+.display-1 {
+    color: #000000;
+    font-size: 3.19rem;
+    font-weight: 800;
+    line-height: 4.2rem;
+}
+
+.btn-primary {
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: transparent;
+    --bs-btn-font-size: 1.54rem;
+    --bs-btn-font-weight: 800;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #146c43;
+    white-space: nowrap;
+}
