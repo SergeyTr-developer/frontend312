@@ -12,7 +12,7 @@
     --header-button-blue: #ffffff;
 
     /* grey color */
-    --cds-grey-400: #525252;
+    --cds-grey-400: #a9a9a9;
     --cds-grey-500: #8d8d8d;
 
     /* Background */
@@ -28,6 +28,8 @@
     --text-text-on-color: #ffffff; /* Text on interactive colors; Text on button colors */
     --text-text-on-color-disabled: #6f6f6f; /* Disabled color for --text-text-on-color */
     --text-text-disabled: #525252;
+    --text-title-card: #c0c0c0;
+    --number-star-rating: #e0e0e0;
 
     /* Link */
     --link-link-primary: #78a9ff;
@@ -47,6 +49,12 @@
     /* Focus */
     --focus-focus: #ffffff;
     --focus-box-shadow: 0px 0px 0px 0.1rem #161616 inset;
+
+    /* cards background */
+    --cards-bgc: #262626;
+
+    /* star background */
+    --star-bgc: #ff5722;
 }
 
 /* logo */
