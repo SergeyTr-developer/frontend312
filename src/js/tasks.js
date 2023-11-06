@@ -85,7 +85,7 @@ const renderData = () => {
 
     swiperWrapper.appendChild(div) // Вставка сформированной дивки в swiperWrapper
   })
-  initTasksSwiper() // Вызов функции для инициализации слайдера
+
 }
 
 function displayTasksDetails() {
@@ -173,6 +173,8 @@ function initTasksSwiper() {
     },
   })
 }
+
+initTasksSwiper() // Вызов функции для инициализации слайдера
 
 /* Слайдер tasks-details */
 function initTasksDetailsSwiper() {
