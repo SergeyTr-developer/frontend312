@@ -1,0 +1,92 @@
+.container
+  max-width: 1140px
+  margin: 0 auto
+
+.clients
+  background-color: #8C30F5
+
+.title-clients
+  position: relative
+  display: flex
+  align-items: center
+  padding-top: 8rem
+  padding-bottom: 3.2rem
+  svg
+      position: absolute
+      right: -6.2rem
+      top: 4.7rem
+
+
+  h1
+    color: #fff
+    font:
+        family: Manrope, sans-serif
+        size: 4.8rem
+        weight: 800
+    line-height: 6.4rem
+
+.flex-wrap
+ display: inline-flex
+ gap: 2.8rem
+ flex-wrap: wrap
+ justify-content: center
+
+
+@mixin font-styles($size, $weight, $lineHeight)
+  font-family: Manrope, sans-serif
+  font-size: $size
+  font-weight: $weight
+  line-height: $lineHeight
+
+.block_clients
+  max-width: 47.6rem
+  padding: 3.2rem
+  border-radius: 1rem
+  background-color: #fff
+  h3
+    text-align: center
+    color: #18191F
+    @include font-styles(1.8rem, 500, 2.8rem)
+
+  p
+    text-align: center
+    color: #18191F
+    @include font-styles(1.3rem, 400, 2.4rem)
+
+.arrow-wrapper
+    display: flex
+    justify-content: center
+    margin-top: -0.1rem
+
+.name-box
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 1.6rem
+    margin-bottom: 3rem
+    h4
+      color: #fff
+      @include font-styles(1.8rem, 700, 2.8rem)
+    p
+      color: #fff
+      @include font-styles(1.4rem, 400, 2.4rem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
