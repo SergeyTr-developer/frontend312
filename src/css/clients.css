@@ -1,0 +1,92 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.clients {
+  background-color: #8c30f5;
+}
+
+.title-clients {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 8rem;
+  padding-bottom: 3.2rem;
+}
+
+.title-clients svg {
+  position: absolute;
+  right: -6.2rem;
+  top: 4.7rem;
+}
+
+.title-clients h1 {
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 6.4rem;
+}
+
+.flex-wrap {
+  display: inline-flex;
+  gap: 2.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.block_clients {
+  max-width: 47.6rem;
+  padding: 3.2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.block_clients h3 {
+  color: #18191f;
+  text-align: center;
+  font-family: Manrope, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+.block_clients p {
+  color: #18191f;
+  text-align: center;
+  font-family: Manrope, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -0.1rem;
+}
+
+.name-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.name-box h4 {
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+
+.name-box p {
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
